@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/list_row_select">
+
+    <TextView
+        android:id="@+id/lv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:id="@+id/lv_blood_group"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/lv_name"
+        android:textSize="15dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/lv_phone"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/lv_blood_group"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/lv_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:textSize="12dp"/>
+
+</RelativeLayout>
